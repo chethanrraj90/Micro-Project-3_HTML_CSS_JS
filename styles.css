@@ -1,0 +1,22 @@
+h1{
+    text-align:center;
+  }
+
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:20px;
+  }
+  .list-container {
+    height: 200px; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+  .topic-container{
+    height: 360px;
+    width: 300px;
+    padding: 10px;
+    border:1px solid black;
+    border-radius: 10px;
+    
+  }
